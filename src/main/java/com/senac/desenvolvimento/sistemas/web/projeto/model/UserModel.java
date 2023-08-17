@@ -1,5 +1,6 @@
 package com.senac.desenvolvimento.sistemas.web.projeto.model;
 
+import com.senac.desenvolvimento.sistemas.web.projeto.indicator.GroupIndicator;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
@@ -35,5 +36,5 @@ public class UserModel {
     private String password;
 
     @Column(name = "GRUPO", nullable = false)
-    private String group;
+    private GroupIndicator group;
 }

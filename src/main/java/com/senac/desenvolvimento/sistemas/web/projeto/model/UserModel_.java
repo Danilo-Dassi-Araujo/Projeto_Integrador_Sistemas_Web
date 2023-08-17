@@ -1,5 +1,7 @@
 package com.senac.desenvolvimento.sistemas.web.projeto.model;
 
+import com.senac.desenvolvimento.sistemas.web.projeto.indicator.GroupIndicator;
+
 import javax.annotation.Generated;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
@@ -13,5 +15,5 @@ public class UserModel_ {
     public static volatile SingularAttribute<UserModel, String> cpf;
     public static volatile SingularAttribute<UserModel, String> email;
     public static volatile SingularAttribute<UserModel, String> password;
-    public static volatile SingularAttribute<UserModel, String> group;
+    public static volatile SingularAttribute<UserModel, GroupIndicator> group;
 }
