@@ -1,4 +1,4 @@
-package com.senac.desenvolvimento.sistemas.web.projeto;
+package com.senac.desenvolvimento.sistemas.web.projeto.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
